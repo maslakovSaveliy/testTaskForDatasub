@@ -3,7 +3,6 @@ import React from "react";
 import "./resources/style.css";
 import mongoose from "mongoose";
 const App = () => {
-  mongoose.connect("mongodb://localhost/muggers-db");
   const {
     register,
     formState: { errors, isValid },
